@@ -1,0 +1,443 @@
+{
+  "test_name": "試験_001",
+  "analysis_location": "東分析",
+  "selected_group": "FC",
+  "timestamp": "2025-07-11T17:08:35.135991",
+  "tabs": {
+    "tab_0": {
+      "mode": "FCD",
+      "tapping_temp": 1450,
+      "total_weight": 110.0,
+      "remaining_weight": 0.0,
+      "selected_elements": [
+        "C",
+        "Si",
+        "Mn",
+        "P",
+        "S"
+      ],
+      "targets": {
+        "C": 3.6,
+        "Si": 2.4,
+        "Mn": 0.4,
+        "P": 0.03,
+        "S": 0.02,
+        "Ni": 0.0,
+        "Cr": 0.0,
+        "Mo": 0.0,
+        "Ti": 0.0,
+        "V": 0.0,
+        "Cu": 0.0,
+        "W": 0.0,
+        "Sn": 0.0,
+        "Al": 0.0,
+        "Mg": 0.0,
+        "Zn": 0.0
+      },
+      "tolerances": {
+        "C": 0.05,
+        "Si": 0.05,
+        "Mn": 0.05,
+        "P": 0.01,
+        "S": 0.01,
+        "Ni": 0.01,
+        "Cr": 0.01,
+        "Mo": 0.01,
+        "Ti": 0.01,
+        "V": 0.01,
+        "Cu": 0.01,
+        "W": 0.01,
+        "Sn": 0.01,
+        "Al": 0.01,
+        "Mg": 0.01,
+        "Zn": 0.01
+      },
+      "tolerance_types": {
+        "C": "±",
+        "Si": "±",
+        "Mn": "±",
+        "P": "以下",
+        "S": "以下",
+        "Ni": "±",
+        "Cr": "±",
+        "Mo": "±",
+        "Ti": "±",
+        "V": "±",
+        "Cu": "±",
+        "W": "±",
+        "Sn": "±",
+        "Al": "±",
+        "Mg": "±",
+        "Zn": "±"
+      },
+      "selected_additives": [
+        "OGRC-4.5H",
+        "SカバーM"
+      ],
+      "additive_percents": {
+        "OGRC-4.5H": 1.3,
+        "SカバーM": 0.8
+      },
+      "selected_materials": [
+        "神鋼SP銑",
+        "C粉",
+        "Fe-Si",
+        "Fe-Mn"
+      ],
+      "manual_materials": {
+        "鋼屑": 0.0,
+        "神鋼ＳＰ銑": 0.0,
+        "故銑": 0.0
+      }
+    },
+    "tab_1": {
+      "mode": "FCD",
+      "tapping_temp": 1450,
+      "total_weight": 110.0,
+      "remaining_weight": 0.0,
+      "selected_elements": [
+        "C",
+        "Si",
+        "Mn",
+        "P",
+        "S",
+        "Cr",
+        "Cu"
+      ],
+      "targets": {
+        "C": 3.6,
+        "Si": 2.4,
+        "Mn": 0.5,
+        "P": 0.08,
+        "S": 0.02,
+        "Ni": 0.0,
+        "Cr": 0.08,
+        "Mo": 0.0,
+        "Ti": 0.0,
+        "V": 0.0,
+        "Cu": 0.15,
+        "W": 0.0,
+        "Sn": 0.0,
+        "Al": 0.0,
+        "Mg": 0.0,
+        "Zn": 0.0
+      },
+      "tolerances": {
+        "C": 0.05,
+        "Si": 0.05,
+        "Mn": 0.05,
+        "P": 0.01,
+        "S": 0.01,
+        "Ni": 0.01,
+        "Cr": 0.01,
+        "Mo": 0.01,
+        "Ti": 0.01,
+        "V": 0.01,
+        "Cu": 0.01,
+        "W": 0.01,
+        "Sn": 0.01,
+        "Al": 0.01,
+        "Mg": 0.01,
+        "Zn": 0.01
+      },
+      "tolerance_types": {
+        "C": "±",
+        "Si": "±",
+        "Mn": "±",
+        "P": "±",
+        "S": "以下",
+        "Ni": "±",
+        "Cr": "±",
+        "Mo": "±",
+        "Ti": "±",
+        "V": "±",
+        "Cu": "±",
+        "W": "±",
+        "Sn": "±",
+        "Al": "±",
+        "Mg": "±",
+        "Zn": "±"
+      },
+      "selected_additives": [
+        "OGRC-4.5H",
+        "SカバーM"
+      ],
+      "additive_percents": {
+        "OGRC-4.5H": 1.3,
+        "SカバーM": 0.8
+      },
+      "selected_materials": [
+        "神鋼SP銑",
+        "C粉",
+        "Fe-Si",
+        "Fe-Mn",
+        "Fe-P",
+        "Fe-Cr",
+        "Cu屑"
+      ],
+      "manual_materials": {
+        "鋼屑": 0.0,
+        "神鋼ＳＰ銑": 0.0,
+        "故銑": 0.0
+      }
+    },
+    "tab_2": {
+      "mode": "FCD",
+      "tapping_temp": 1450,
+      "total_weight": 110.0,
+      "remaining_weight": 0.0,
+      "selected_elements": [
+        "C",
+        "Si",
+        "Mn",
+        "P",
+        "S",
+        "Cr",
+        "Cu"
+      ],
+      "targets": {
+        "C": 3.6,
+        "Si": 2.4,
+        "Mn": 0.4,
+        "P": 0.03,
+        "S": 0.02,
+        "Ni": 0.0,
+        "Cr": 0.04,
+        "Mo": 0.0,
+        "Ti": 0.0,
+        "V": 0.0,
+        "Cu": 0.08,
+        "W": 0.0,
+        "Sn": 0.0,
+        "Al": 0.0,
+        "Mg": 0.0,
+        "Zn": 0.0
+      },
+      "tolerances": {
+        "C": 0.05,
+        "Si": 0.05,
+        "Mn": 0.05,
+        "P": 0.01,
+        "S": 0.01,
+        "Ni": 0.01,
+        "Cr": 0.01,
+        "Mo": 0.01,
+        "Ti": 0.01,
+        "V": 0.01,
+        "Cu": 0.01,
+        "W": 0.01,
+        "Sn": 0.01,
+        "Al": 0.01,
+        "Mg": 0.01,
+        "Zn": 0.01
+      },
+      "tolerance_types": {
+        "C": "±",
+        "Si": "±",
+        "Mn": "±",
+        "P": "以下",
+        "S": "以下",
+        "Ni": "±",
+        "Cr": "±",
+        "Mo": "±",
+        "Ti": "±",
+        "V": "±",
+        "Cu": "±",
+        "W": "±",
+        "Sn": "±",
+        "Al": "±",
+        "Mg": "±",
+        "Zn": "±"
+      },
+      "selected_additives": [
+        "OGRC-4.5H",
+        "SカバーM"
+      ],
+      "additive_percents": {
+        "OGRC-4.5H": 1.3,
+        "SカバーM": 0.8
+      },
+      "selected_materials": [
+        "神鋼SP銑",
+        "C粉",
+        "Fe-Si",
+        "Fe-Mn",
+        "Fe-Cr",
+        "Cu屑"
+      ],
+      "manual_materials": {
+        "鋼屑": 0.0,
+        "神鋼ＳＰ銑": 0.0,
+        "故銑": 0.0
+      }
+    },
+    "tab_3": {
+      "mode": "FCD",
+      "tapping_temp": 1450,
+      "total_weight": 110.0,
+      "remaining_weight": 0.0,
+      "selected_elements": [
+        "C",
+        "Si",
+        "Mn"
+      ],
+      "targets": {
+        "C": 0.0,
+        "Si": 0.0,
+        "Mn": 0.0,
+        "P": 0.0,
+        "S": 0.0,
+        "Ni": 0.0,
+        "Cr": 0.0,
+        "Mo": 0.0,
+        "Ti": 0.0,
+        "V": 0.0,
+        "Cu": 0.0,
+        "W": 0.0,
+        "Sn": 0.0,
+        "Al": 0.0,
+        "Mg": 0.0,
+        "Zn": 0.0
+      },
+      "tolerances": {
+        "C": 0.05,
+        "Si": 0.05,
+        "Mn": 0.05,
+        "P": 0.01,
+        "S": 0.01,
+        "Ni": 0.01,
+        "Cr": 0.01,
+        "Mo": 0.01,
+        "Ti": 0.01,
+        "V": 0.01,
+        "Cu": 0.01,
+        "W": 0.01,
+        "Sn": 0.01,
+        "Al": 0.01,
+        "Mg": 0.01,
+        "Zn": 0.01
+      },
+      "tolerance_types": {
+        "C": "±",
+        "Si": "±",
+        "Mn": "±",
+        "P": "±",
+        "S": "±",
+        "Ni": "±",
+        "Cr": "±",
+        "Mo": "±",
+        "Ti": "±",
+        "V": "±",
+        "Cu": "±",
+        "W": "±",
+        "Sn": "±",
+        "Al": "±",
+        "Mg": "±",
+        "Zn": "±"
+      },
+      "selected_additives": [
+        "OGRC-4.5H",
+        "SカバーM"
+      ],
+      "additive_percents": {
+        "OGRC-4.5H": 1.3,
+        "SカバーM": 0.8
+      },
+      "selected_materials": [
+        "神鋼SP銑",
+        "C粉",
+        "Fe-Si",
+        "Fe-Mn"
+      ],
+      "manual_materials": {
+        "鋼屑": 0.0,
+        "神鋼ＳＰ銑": 0.0,
+        "故銑": 0.0
+      }
+    },
+    "tab_4": {
+      "mode": "FCD",
+      "tapping_temp": 1450,
+      "total_weight": 110.0,
+      "remaining_weight": 0.0,
+      "selected_elements": [
+        "C",
+        "Si",
+        "Mn"
+      ],
+      "targets": {
+        "C": 0.0,
+        "Si": 0.0,
+        "Mn": 0.0,
+        "P": 0.0,
+        "S": 0.0,
+        "Ni": 0.0,
+        "Cr": 0.0,
+        "Mo": 0.0,
+        "Ti": 0.0,
+        "V": 0.0,
+        "Cu": 0.0,
+        "W": 0.0,
+        "Sn": 0.0,
+        "Al": 0.0,
+        "Mg": 0.0,
+        "Zn": 0.0
+      },
+      "tolerances": {
+        "C": 0.05,
+        "Si": 0.05,
+        "Mn": 0.05,
+        "P": 0.01,
+        "S": 0.01,
+        "Ni": 0.01,
+        "Cr": 0.01,
+        "Mo": 0.01,
+        "Ti": 0.01,
+        "V": 0.01,
+        "Cu": 0.01,
+        "W": 0.01,
+        "Sn": 0.01,
+        "Al": 0.01,
+        "Mg": 0.01,
+        "Zn": 0.01
+      },
+      "tolerance_types": {
+        "C": "±",
+        "Si": "±",
+        "Mn": "±",
+        "P": "±",
+        "S": "±",
+        "Ni": "±",
+        "Cr": "±",
+        "Mo": "±",
+        "Ti": "±",
+        "V": "±",
+        "Cu": "±",
+        "W": "±",
+        "Sn": "±",
+        "Al": "±",
+        "Mg": "±",
+        "Zn": "±"
+      },
+      "selected_additives": [
+        "OGRC-4.5H",
+        "SカバーM"
+      ],
+      "additive_percents": {
+        "OGRC-4.5H": 1.3,
+        "SカバーM": 0.8
+      },
+      "selected_materials": [
+        "神鋼SP銑",
+        "C粉",
+        "Fe-Si",
+        "Fe-Mn"
+      ],
+      "manual_materials": {
+        "鋼屑": 0.0,
+        "神鋼ＳＰ銑": 0.0,
+        "故銑": 0.0
+      }
+    }
+  }
+}
