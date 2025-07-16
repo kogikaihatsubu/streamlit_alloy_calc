@@ -49,7 +49,7 @@ with st.container(border=True):
     # 保存済み設定の選択とボタンを横並びに配置
     saved_files = [f for f in os.listdir(save_dir) if f.endswith('.json')] if os.path.exists(save_dir) else []
     
-    title_col, select_col, col1, col2, col3, _ = st.columns([1, 3, 0.5, 0.5, 0.5, 3])
+    title_col, select_col, col1, col2, col3 = st.columns([1, 3, 0.5, 0.5, 0.5])
     
     with title_col:
         st.markdown("**保存済み設定の選択**")
@@ -271,9 +271,10 @@ with st.container(border=True):
                 st.dataframe(display_df, use_container_width=True)
 
 # --- 5つの配合タブを作成 ---
-# タブの文字に枠線を追加するCSS
+# レスポンシブ対応CSS
 st.markdown("""
 <style>
+/* タブの文字に枠線を追加 */
 .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
     border: 1px solid #FF8C00;
     border-radius: 8px;
@@ -284,6 +285,35 @@ st.markdown("""
     background-color: #e6f3ff;
     border: 3px solid #FF8C00;
 }
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 1024px) {
+    .stColumns > div {
+        min-width: 0 !important;
+        flex: 1 1 auto !important;
+    }
+    .stSelectbox > div > div {
+        min-width: 0 !important;
+    }
+    .stNumberInput > div > div {
+        min-width: 0 !important;
+    }
+    .stMultiSelect > div > div {
+        min-width: 0 !important;
+    }
+}
+
+/* iPad縦向け対応 */
+@media screen and (max-width: 768px) {
+    .stColumns {
+        flex-direction: column !important;
+    }
+    .stColumns > div {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+}
+
 /* ラベルとインプットボックスの縦方向中央揃え */
 .stColumns > div > div {
     display: flex;
@@ -295,6 +325,13 @@ st.markdown("""
     display: flex;
     align-items: center;
     height: 2.5rem;
+}
+
+/* テーブルのレスポンシブ対応 */
+@media screen and (max-width: 1024px) {
+    .stDataFrame {
+        overflow-x: auto;
+    }
 }
 </style>
 """, unsafe_allow_html=True)
